@@ -1,4 +1,4 @@
-{% set version = "0.1.6" %}
+{% set version = "0.2.0" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,7 +10,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/txtq_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/txtq/txtq_{{ version }}.tar.gz
-  sha256: 11d3cdfb1a0e02837ec8c0e8f6a22ccec1b66bb587c949a4d38d941edd925418
+  sha256: 702c3775703556041fbc2aa34721f90da99b5d4be7092bfa5a25032a34af8df0
 
 build:
   merge_build_host: True  # [win]
