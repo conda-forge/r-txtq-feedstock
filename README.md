@@ -1,11 +1,11 @@
-About r-txtq
-============
+About r-txtq-feedstock
+======================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-txtq-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/wlandau/txtq
 
 Package license: MIT
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-txtq-feedstock/blob/main/LICENSE.txt)
 
 Summary: This queue is a data structure that lets parallel processes send and receive messages, and it can help coordinate the work of complicated parallel tasks. Processes can push new messages to the queue, pop old messages, and obtain a log of all the messages ever pushed. File locking preserves the integrity of the data even when multiple processes access the queue simultaneously.
 
